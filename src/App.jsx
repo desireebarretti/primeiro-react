@@ -1,6 +1,8 @@
 import './App.css';
 import Botao from './componentes/Botao';
 import Card from './componentes/Card';
+import Lista from './componentes/Lista';
+
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
 
       <Card className="cards" cargo="fisioterapeuta"></Card>
       <Botao name="Leonardo"></Botao>
-
+      <Lista />
     </div>
 
   );
